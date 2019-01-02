@@ -7,3 +7,4 @@ def line(current_line)
   else puts "The line is currently empty."
   end
 end
+end
