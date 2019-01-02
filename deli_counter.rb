@@ -10,3 +10,7 @@ def line(current_line)
    else puts "The line is currently empty."
   end
 end
+
+def take_a_number(current_line, name)
+  puts "Hello, #{name}You are number #{current_line.length +1} on line"
+end
