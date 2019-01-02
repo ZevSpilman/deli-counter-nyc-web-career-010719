@@ -16,4 +16,10 @@ def take_a_number(current_line, name)
   puts "Welcome, #{name}. You are number #{current_line.length} in line."
 end
 
-def now_serving
+def now_serving(current_line)
+  if current_line.length > 0
+    puts current_line[0]
+    line.shift
+  else outs "There is nobody waiting to be served"
+end
+end
