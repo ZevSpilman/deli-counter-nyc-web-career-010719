@@ -4,7 +4,7 @@ def line(current_line)
      current_line.each do |smtn|
       puts "#{x}. #{current_line}"
       x += 1
+    end
   else puts "The line is currently empty."
   end
-end
 end
