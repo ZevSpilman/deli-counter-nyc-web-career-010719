@@ -7,6 +7,6 @@ def line(current_line)
        x += 1
     end
     puts new_str
-  else puts "The line is currently empty."
+   puts "The line is currently empty."
   end
 end
