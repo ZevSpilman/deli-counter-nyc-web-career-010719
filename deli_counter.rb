@@ -3,3 +3,4 @@ def line
     puts current_line
   else puts "The lineis currently empty."
   end
+end
