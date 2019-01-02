@@ -8,6 +8,7 @@ def line(current_line)
        if x - 1 > new_str.length
          new_str += " "
     end
+  end
        puts new_str
    else puts "The line is currently empty."
   end
