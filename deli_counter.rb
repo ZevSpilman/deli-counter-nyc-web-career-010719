@@ -3,10 +3,10 @@ def line(current_line)
     x = 0
     new_str = "The line is currently: "
      while x < current_line.size
-       new_str += ("#{x + 1}. #{current_line[x]}")
+       new_str += ("#{x + 1}. #{current_line[x]} ")
        x += 1
        if x - 1 > new_str.length
-         new_str += " "
+         new_str " "
     end
   end
        puts new_str
