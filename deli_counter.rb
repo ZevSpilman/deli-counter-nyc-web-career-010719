@@ -6,7 +6,7 @@ def line(current_line)
        new_str += ("#{x + 1}. #{current_line[x]}")
        x += 1
     end
-    else puts new_str
-   puts "The line is currently empty."
+       puts new_str
+   else puts "The line is currently empty."
   end
 end
