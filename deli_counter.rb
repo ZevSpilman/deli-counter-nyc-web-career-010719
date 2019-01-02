@@ -5,7 +5,7 @@ def line(current_line)
      while x < current_line.size
        new_str += ("#{x + 1}. #{current_line[x]}")
        x += 1
-       if x > new_str.length -1 
+       if x > new_str.length-1
          new_str += " "
     end
        puts new_str
