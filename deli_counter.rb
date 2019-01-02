@@ -12,5 +12,5 @@ def line(current_line)
 end
 
 def take_a_number(current_line, name)
-  puts "Hello, #{name}You are number #{current_line.length +1} on line"
+  puts "Hello, #{name}, you are number #{current_line.length +1} on line"
 end
