@@ -1,7 +1,7 @@
 def line(current_line)
   if current_line.size > 0
     x = 0
-     current_line.each do |smtn|
+     while x < current_line.size
       puts "#{x}. #{current_line[x]}"
       x += 1
     end
